@@ -1,0 +1,2 @@
+LEXICON I
++V+Ind+Sg1:u # ;

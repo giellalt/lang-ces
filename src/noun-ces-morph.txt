@@ -1,0 +1,7 @@
+LEXICON ma ! masculine animate
++N+Msc mcase ;
+
+
+LEXICON mcase
++Nom: # ;
++Gen:a # ;
