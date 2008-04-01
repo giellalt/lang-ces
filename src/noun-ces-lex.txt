@@ -1,5 +1,9 @@
 LEXICON Noun 
 test mu ; ! testord
-pán ma ;
+pán PAN ;
 
-muž me ;
+muž MUZ ;
+hrad HRAD ;
+stroj STROJ ;
+predseda PREDSEDA ;
+soudce SOUDCE ;
