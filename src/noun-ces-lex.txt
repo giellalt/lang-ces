@@ -2,3 +2,4 @@ LEXICON Noun
 test ma ; ! testord
 pán ma ;
 
+muž me ;

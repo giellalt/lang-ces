@@ -1,6 +1,8 @@
 LEXICON ma ! masculine animate
 +N+Msc: mcase ;
 
+LEXICON me ! masculine with e-suff
++N+Msc:  mcase ;
 
 LEXICON mcase
 +Sg+Nom: # ;
