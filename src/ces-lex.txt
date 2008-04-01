@@ -27,7 +27,7 @@ Verb ;
 Adjective ; 
 Adverb ;
 Conjunction ; 
-!Subjunction ; ! Still not added.
+Subjunction ; ! Still not added.
 !Interjection ;
 !Numeral ;
 Pronoun ;
