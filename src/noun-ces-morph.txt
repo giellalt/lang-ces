@@ -1,9 +1,27 @@
-LEXICON ma ! masculine animate
-+N+Msc: mcase ;
+LEXICON ma ! masculine with a-suff
++N+Msc: macase ;
 
 LEXICON me ! masculine with e-suff
-+N+Msc:  mcase ;
++N+Msc:  mecase ;
+         mcommon ;
 
-LEXICON mcase
-+Sg+Nom: # ;
+LEXICON mu
++N+Msc: mucase
+
+LEXICON mucase
++Sg+Gen:u # ;
+          mcommon ;
+
+LEXICON macase
 +Sg+Gen:a # ;
+          mcommon ;
+
+LEXICON mecase
++Sg+Gen:e # ;
+          mcommon ;
+
+LEXICON mcommon
++Sg+Nom:  # ;
++Pl+Gen:ů # ;
+
+
