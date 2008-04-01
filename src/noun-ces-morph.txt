@@ -1,27 +1,75 @@
-LEXICON ma ! masculine with a-suff
-+N+Msc: macase ;
+LEXICON pan ! masculine with a-suff
++N+Msc: pancase ;
+        mcommon ;
+        mcommon-predseda ;
 
-LEXICON me ! masculine with e-suff
-+N+Msc:  mecase ;
+LEXICON muz ! masculine with e-suff
++N+Msc:  muzcase ;
          mcommon ;
+         mcommon-predseda ;
 
-LEXICON mu
-+N+Msc: mucase
+LEXICON hrad
++N+Msc: hradcase ;
+        mcommon ;
+        mcommon-predseda ;
 
-LEXICON mucase
+LEXICON stroj
++N+Msc: strojcase ;
+        mcommon ;
+        mcommon-predseda ;
+
+LEXICON predseda
++N+Msc: predsedacase ;
+        mcommon ;
+
+LEXICON soudce
++N+Msc: soudcecase ;
+        mcommon ; 
+        mcommon-predseda ;
+
+LEXICON hradcase
 +Sg+Gen:u # ;
           mcommon ;
 
-LEXICON macase
+LEXICON pancase
 +Sg+Gen:a # ;
++Sg+Dat:u # ;
++Sg+Acc:a # ;
++Sg+Voc:e # ;
++Sg+Loc:u # ;
+
           mcommon ;
 
-LEXICON mecase
+LEXICON muzcase
 +Sg+Gen:e # ;
           mcommon ;
 
 LEXICON mcommon
 +Sg+Nom:  # ;
++Sg+Dat:ovi # ;
++Sg+Loc:ovi # ;
 +Pl+Gen:ů # ; 
+
+LEXICON mcommon-predseda
++Sg+Ins: em # ; 
+
+LEXICON panmuzpredsedasoudce !plural nominative
++Pl+Nom: ové # ; 
+
+LEXICON panmuzsoudce !plural nominative
++Pl+NOm: i # ; LEXICON ma ! masculine animate
++N+Msc: macase ;
+
+LEXICON me ! masculine with e-suff
++N+Msc:  mcase ;
+         mcommon ;
+
+LEXICON mecase
++Sg+Nom:  # ;
++Sg+Gen:a # ;
+          mcommon ;
+
+LEXICON mcommon
++Pl+Gen:ů # ;
 
 
