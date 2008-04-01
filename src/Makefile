@@ -16,7 +16,7 @@ ices.fst: ../bin/ices.fst
 	invert net \n\
 	save stack ../bin/ices.fst \n\
 	quit \n" > ../../tmp/ices-fst-script
-	@xfst < ../../tmp/ices-fst-script
+	@xfst -utf8 < ../../tmp/ices-fst-script
 	@rm -f ../../tmp/ices-fst-script
 
 
@@ -31,7 +31,7 @@ ces.fst: ../bin/ces.fst
 	[@\"../bin/caseconv.fst\"]] ; \n\
 	save stack ../bin/ces.fst \n\
 	quit \n" > ../../tmp/ces-fst-script
-	@xfst < ../../tmp/ces-fst-script
+	@xfst -utf8 < ../../tmp/ces-fst-script
 	@rm -f ../../tmp/ces-fst-script
 
 
@@ -46,7 +46,7 @@ caseconv.fst: ../bin/caseconv.fst
 	@printf "read regex < case.regex \n\
 	save stack ../bin/caseconv.fst \n\
 	quit \n" > ../../tmp/caseconv-script
-	@xfst < ../../tmp/caseconv-script
+	@xfst -utf8 < ../../tmp/caseconv-script
 	@rm -f ../../tmp/caseconv-script
 
 
@@ -59,7 +59,7 @@ ces.save: ../bin/ces.save
 	[@\"../bin/xfst-ces.bin\"]] ; \n\
 	save stack ../bin/ces.save \n\
 	quit \n" > ../../tmp/ces-save-script
-	@xfst < ../../tmp/ces-save-script
+	@xfst -utf8 < ../../tmp/ces-save-script
 	@rm -f ../../tmp/ces-save-script
 
 # The first goal is to build ces-lex.save
@@ -79,7 +79,7 @@ ces-lex.save: ../bin/ces-lex.save
 	cs-ces-lex.txt \n\
 	save-source ../bin/ces-lex.save \n\
 	quit \n" > ../../tmp/ces-lex-save-script
-	@lexc < ../../tmp/ces-lex-save-script
+	@lexc -utf8 < ../../tmp/ces-lex-save-script
 	rm -f ../../tmp/ces-lex-save-script
 
 # The second goal is to build xfst-ces.bin
@@ -93,7 +93,7 @@ xfst-ces.bin: ../bin/xfst-ces.bin
 	@printf "source xfst-ces.txt \n\
 	save stack ../bin/xfst-ces.bin \n\
 	quit \n" > ../../tmp/xfst-ces-script
-	@xfst < ../../tmp/xfst-ces-script
+	@xfst -utf8 < ../../tmp/xfst-ces-script
 	@rm -f ../../tmp/xfst-ces-script
 
 clean:
