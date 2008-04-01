@@ -22,6 +22,6 @@ LEXICON mecase
 
 LEXICON mcommon
 +Sg+Nom:  # ;
-+Pl+Gen:ů # ;
++Pl+Gen:ů # ; 
 
 
