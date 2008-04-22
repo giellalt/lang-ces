@@ -54,7 +54,7 @@ LEXICON MUZ_
 +N+Msc: ACC_E ;
 +N+Msc: VOK_OVE ;
 +N+Msc: VOK_I ;
-+N+Msc: LOC_íCH ;
++N+Msc: LOC_IICH ;
 +N+Msc: INST_I ;
 
 LEXICON STROJ
@@ -180,124 +180,156 @@ LEXICON KOLEGA
 !singular_declination
 
 LEXICON NOM_A
-+Sg+Nom:%>a ;
++Sg+Nom:%>a # ;
 
 LEXICON NOM_E
-+Sg+Nom:%>e ;
++Sg+Nom:%>e # ;
 
 LEXICON GEN_A
-+Sg+Gen:%>a ;
++Sg+Gen:%>a # ;
 
 LEXICON GEN_U
-+Sg+Gen:%>u ;
++Sg+Gen:%>u # ;
 
 LEXICON GEN_E
-+Sg+Gen:%>e ;
++Sg+Gen:%>e # ;
 
 LEXICON GEN_Y
-+Sg+Gen:%>y ;
++Sg+Gen:%>y # ;
 
 LEXICON DAT_OVI
-+Sg+Dat:%>ovi ;
++Sg+Dat:%>ovi # ;
 
 LEXICON DAT_I
-+Sg+Dat:%>i ;
++Sg+Dat:%>i # ;
 
 LEXICON DAT_U
-+Sg+Dat:%>u ;
++Sg+Dat:%>u # ;
 
 LEXICON ACC_E
-+Sg+Acc:%>e ;
++Sg+Acc:%>e # ;
 
 LEXICON ACC_0
-+Sg+Acc:%>0 ;
++Sg+Acc:%>0 # ;
 
 LEXICON ACC_A
-+Sg+Acc:%>a ;
++Sg+Acc:%>a # ;
 
 LEXICON ACC_U
-+Sg+Acc:%>u ;
++Sg+Acc:%>u # ;
 
 LEXICON VOK_U
-+Sg+Vok:%>u ;
++Sg+Vok:%>u # ;
 
 LEXICON VOK_E
-+Sg+Vok:%>e ;
++Sg+Vok:%>e # ;
 
 LEXICON VOK_I
-+Sg+Vok:%>i ;
++Sg+Vok:%>i # ;
 
 LEXICON VOK_O
-+Sg+Vok:%>o ;
++Sg+Vok:%>o # ;
 
 LEXICON LOC_OVI
-+Sg+Loc:%>ovi ;
++Sg+Loc:%>ovi # ;
 
 LEXICON LOC_I
-+Sg+Loc:%>i ;
++Sg+Loc:%>i # ;
 
 LEXICON LOC_U
-+Sg+Loc:%>u ;
++Sg+Loc:%>u # ;
 
 LEXICON LOC_E
-+Sg+Loc:%>e ;
++Sg+Loc:%>e # ;
 
 LEXICON LOC_IJE
-+Sg+Loc:%>e ;
++Sg+Loc:%>e # ;
 
 LEXICON INST_EM
-+Sg+Inst:%>em ;
++Sg+Inst:%>em # ;
 
 LEXICON INST_OU
-+Sg+Inst:%>ou ;
++Sg+Inst:%>ou # ;
 
 !plural_declination
 
 LEXICON NOM_OVE
-+Pl+Nom:%>ové ;
++Pl+Nom:%>ové # ;
 
 LEXICON NOM_I
-+Pl+Nom:%>i ;
++Pl+Nom:%>i # ;
 
 LEXICON NOM_Y
-+Pl+Nom:%>y ;
++Pl+Nom:%>y # ;
 
 LEXICON NOM_E
-+Pl+Nom:%>e ;
++Pl+Nom:%>e # ;
 
 LEXICON GEN_U
-+Pl+Gen:%>u ;
++Pl+Gen:%>u # ;
 
 LEXICON DAT_UM
-+Pl+Dat:%>um ;
++Pl+Dat:%>um # ;
 
 LEXICON ACC_Y
-+Pl+Acc:%>y ;
++Pl+Acc:%>y # ;
 
 LEXICON ACC_E
-+Pl+Acc:%>e ;
++Pl+Acc:%>e # ;
 
 LEXICON VOK_OVE
-+Pl+Vok:%>ové ;
++Pl+Vok:%>ové # ;
 
 LEXICON VOK_I
-+Pl+Vok:%>i ;
++Pl+Vok:%>i # ;
 
 LEXICON VOK_Y
-+Pl+Vok:%>y ;
++Pl+Vok:%>y # ;
 
 LEXICON VOK_E
-+Pl+Vok:%>e ;
++Pl+Vok:%>e # ;
 
 LEXICON LOC_ECH
-+Pl+Loc:%>ech ;
++Pl+Loc:%>ech # ;
 
 LEXICON LOC_ICH
-+Pl+Loc:%>ích ;
++Pl+Loc:%>ích # ;
 
 LEXICON INST_Y
-+Pl+Inst:%>y ;
++Pl+Inst:%>y # ;
 
 LEXICON INST_I
-+Pl+Inst:%>i ;
++Pl+Inst:%>i # ;
 
+LEXICON mu
+# ;
+
+LEXICON MUZ
+# ;
+
+LEXICON PREDSEDA
+# ;
+
+LEXICON LOK_U
+# ;
+
+LEXICON LOK_OVI
+# ;
+
+LEXICON NOM_0
+# ;
+
+LEXICON LOK_IE
+# ;
+
+LEXICON LOC_C
+# ;
+
+LEXICON LOC_IICH
+# ;
+
+LEXICON LOK_I
+# ;
+
+LEXICON LOK_E
+# ;
