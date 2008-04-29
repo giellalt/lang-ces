@@ -47,6 +47,7 @@ LEXICON MUZ_
 +N+Msc: LOK_OVI ;
 +N+Msc: LOK_I ;
 +N+Msc: INST_EM ;
+
 +N+Msc: NOM_OVE ;
 +N+Msc: NOM_I ;
 +N+Msc: GEN_U ;
@@ -58,6 +59,20 @@ LEXICON MUZ_
 +N+Msc: INST_I ;
 
 LEXICON STROJ
++N+Msc: NOM_0 ; 
++N+Msc: GEN_E ;
++N+Msc: DAT_I ;
++N+Msc: ACC_0 ;
++N+Msc: VOK_I ; 
++N+Msc: LOC_I ; 
++N+Msc: INST_EM ;
++N+Msc: NOM_E_PL ; 
++N+Msc: GEN_U ;
++N+Msc: DAT_UM ;
++N+Msc: ACC_E_PL ;
+
+
+LEXICON PREDSEDA
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_E ;
 +N+Msc: DAT_I ;
@@ -73,7 +88,7 @@ LEXICON STROJ
 +N+Msc: LOC_íCH ;
 +N+Msc: INST_I ;
 
-LEXICON PREDSEDA_
+LEXICON PREDSEDA
 +N+Msc: NOM_A ;
 +N+Msc: GEN_Y ;
 +N+Msc: DAT_OVI ;
