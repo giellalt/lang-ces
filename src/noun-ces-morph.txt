@@ -1,4 +1,6 @@
 
+! Masculine lexica
+! ================
 
 LEXICON PAN
 +N+Msc: NOM_0 ;
@@ -6,155 +8,141 @@ LEXICON PAN
 +N+Msc: DAT_OVI ;
 +N+Msc: DAT_U ;
 +N+Msc: ACC_A ;
-+N+Msc: VOK_E ;
-+N+Msc: LOK_OVI ;
-+N+Msc: LOK_U ;
-+N+Msc: INST_EM ;
-+N+Msc: NOM_OVE ;
-+N+Msc: NOM_I ;
-+N+Msc: GEN_U ;
-+N+Msc: DAT_UM ;
-+N+Msc: ACC_Y ;
-+N+Msc: VOK_OVE ;
-+N+Msc: VOK_I ;
-+N+Msc: LOC_ECH ;
-+N+Msc: INST_Y ;
++N+Msc: VOC_E ;
++N+Msc: LOC_OVI ;
++N+Msc: LOC_U ;
++N+Msc: IST_EM ;
++N+Msc: NOMPL_OVE ;
++N+Msc: NOMPL_I ;
++N+Msc: GENPL_U ;
++N+Msc: DATPL_UM ;
++N+Msc: ACCPL_Y ;
++N+Msc: VOCPL_OVE ;
++N+Msc: VOCPL_I ;
++N+Msc: LOCPL_ECH ;
++N+Msc: ISTPL_Y ;
 
 LEXICON HRAD
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_U ;
 +N+Msc: DAT_U ;
 +N+Msc: ACC_0 ;
-+N+Msc: VOK_E ;
-+N+Msc: LOK_IE ;
-+N+Msc: LOK_U ;
-+N+Msc: INST_EM ;
-+N+Msc: NOM_Y ;
-+N+Msc: GEN_U ;
-+N+Msc: DAT_UM ;
-+N+Msc: ACC_Y ;
-+N+Msc: VOK_Y ;
-+N+Msc: LOC_ECH ;
-+N+Msc: INST_Y ;
++N+Msc: VOC_E ;
++N+Msc: LOC_IE ;
++N+Msc: LOC_U ;
++N+Msc: IST_EM ;
++N+Msc: NOMPL_Y ;
++N+Msc: GENPL_U ;
++N+Msc: DATPL_UM ;
++N+Msc: ACCPL_Y ;
++N+Msc: VOCPL_Y ;
++N+Msc: LOCPL_ECH ;
++N+Msc: ISTPL_Y ;
 
-LEXICON MUZ_
+LEXICON MUZ
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_E ;
 +N+Msc: DAT_OVI ;
 +N+Msc: DAT_I ;
 +N+Msc: ACC_E ;
-+N+Msc: VOK_I ;
-+N+Msc: LOK_OVI ;
-+N+Msc: LOK_I ;
-+N+Msc: INST_EM ;
++N+Msc: VOC_I ;
++N+Msc: LOC_OVI ;
++N+Msc: LOC_I ;
++N+Msc: IST_EM ;
 
-+N+Msc: NOM_OVE ;
-+N+Msc: NOM_I ;
-+N+Msc: GEN_U ;
-+N+Msc: DAT_UM ;
-+N+Msc: ACC_E ;
-+N+Msc: VOK_OVE ;
-+N+Msc: VOK_I ;
-+N+Msc: LOC_IICH ;
-+N+Msc: INST_I ;
++N+Msc: NOMPL_OVE ;
++N+Msc: NOMPL_I ;
++N+Msc: GENPL_U ;
++N+Msc: DATPL_UM ;
++N+Msc: ACCPL_E ;
++N+Msc: VOCPL_OVE ;
++N+Msc: VOCPL_I ;
++N+Msc: LOCPL_ICH ;
++N+Msc: ISTPL_I ;
 
 LEXICON STROJ
-+N+Msc: NOM_0 ; 
-+N+Msc: GEN_E ;
-+N+Msc: DAT_I ;
-+N+Msc: ACC_0 ;
-+N+Msc: VOK_I ; 
-+N+Msc: LOC_I ; 
-+N+Msc: INST_EM ;
-+N+Msc: NOM_E_PL ; 
-+N+Msc: GEN_U ;
-+N+Msc: DAT_UM ;
-+N+Msc: ACC_E_PL ;
-
-
-LEXICON PREDSEDA
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_E ;
 +N+Msc: DAT_I ;
 +N+Msc: ACC_0 ;
-+N+Msc: VOK_I ;
-+N+Msc: LOK_I ;
-+N+Msc: INST_EM ;
-+N+Msc: NOM_E ;
-+N+Msc: GEN_U ;
-+N+Msc: DAT_UM ;
-+N+Msc: ACC_E ;
-+N+Msc: VOK_E ;
-+N+Msc: LOC_íCH ;
-+N+Msc: INST_I ;
++N+Msc: VOC_I ;
++N+Msc: LOC_I ;
++N+Msc: IST_EM ;
++N+Msc: NOMPL_E ;
++N+Msc: GENPL_U ;
++N+Msc: DATPL_UM ;
++N+Msc: ACCPL_E ;
++N+Msc: VOCPL_E ;
++N+Msc: LOCPL_ICH ;
++N+Msc: ISTPL_I ;
 
 LEXICON PREDSEDA
 +N+Msc: NOM_A ;
 +N+Msc: GEN_Y ;
 +N+Msc: DAT_OVI ;
 +N+Msc: ACC_U ;
-+N+Msc: VOK_O ;
-+N+Msc: LOK_OVI ;
-+N+Msc: INST_OU ;
-+N+Msc: NOM_OVE ;
-+N+Msc: GEN_U ;
-+N+Msc: DAT_UM ;
-+N+Msc: ACC_Y ;
-+N+Msc: VOK_OVE ;
-+N+Msc: LOC_ECH ;
-+N+Msc: INST_Y ;
++N+Msc: VOC_O ;
++N+Msc: LOC_OVI ;
++N+Msc: IST_OU ;
++N+Msc: NOMPL_OVE ;
++N+Msc: GENPL_U ;
++N+Msc: DATPL_UM ;
++N+Msc: ACCPL_Y ;
++N+Msc: VOCPL_OVE ;
++N+Msc: LOCPL_ECH ;
++N+Msc: ISTPL_Y ;
 
 LEXICON SOUDCE
 +N+Msc: NOM_E ;
 +N+Msc: GEN_E ;
 +N+Msc: DAT_I ;
 +N+Msc: ACC_E ;
-+N+Msc: VOK_E ;
-+N+Msc: LOK_OVI ;
-+N+Msc: LOK_I ;
-+N+Msc: INST_EM ;
-+N+Msc: NOM_OVE ;
-+N+Msc: NOM_I ;
-+N+Msc: GEN_U ;
-+N+Msc: DAT_UM ;
-+N+Msc: ACC_E ;
-+N+Msc: VOK_OVE ;
-+N+Msc: VOK_I ;
-+N+Msc: LOC_íCH ;
-+N+Msc: INST_I ;
++N+Msc: VOC_E ;
++N+Msc: LOC_OVI ;
++N+Msc: LOC_I ;
++N+Msc: IST_EM ;
++N+Msc: NOMPL_OVE ;
++N+Msc: NOMPL_I ;
++N+Msc: GENPL_U ;
++N+Msc: DATPL_UM ;
++N+Msc: ACCPL_E ;
++N+Msc: VOCPL_OVE ;
++N+Msc: VOCPL_I ;
++N+Msc: LOCPL_ICH ;
++N+Msc: ISTPL_I ;
 
 LEXICON LES
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_A ;
 +N+Msc: DAT_U ;
 +N+Msc: ACC_0 ;
-+N+Msc: VOK_E ;
-+N+Msc: LOK_E ;
-+N+Msc: LOK_U ;
-+N+Msc: INST_EM ;
-+N+Msc: NOM_Y ;
-+N+Msc: GEN_U ;
-+N+Msc: DAT_UM ;
-+N+Msc: ACC_Y ;
-+N+Msc: VOK_Y ;
-+N+Msc: LOC_ECH ;
-+N+Msc: INST_Y ;
++N+Msc: VOC_E ;
++N+Msc: LOC_E ;
++N+Msc: LOC_U ;
++N+Msc: IST_EM ;
++N+Msc: NOMPL_Y ;
++N+Msc: GENPL_U ;
++N+Msc: DATPL_UM ;
++N+Msc: ACCPL_Y ;
++N+Msc: VOCPL_Y ;
++N+Msc: LOCPL_ECH ;
++N+Msc: ISTPL_Y ;
 
 LEXICON ZAMEK
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_U ;
 +N+Msc: DAT_U ;
 +N+Msc: ACC_0 ;
-+N+Msc: VOK_U ;
-+N+Msc: LOK_U ;
-+N+Msc: INST_EM ;
-+N+Msc: NOM_Y ;
-+N+Msc: GEN_U ;
-+N+Msc: DAT_UM ;
-+N+Msc: ACC_Y ;
-+N+Msc: VOK_Y ;
-+N+Msc: LOC_íCH ;
-+N+Msc: INST_Y ;
++N+Msc: VOC_U ;
++N+Msc: LOC_U ;
++N+Msc: ISTPL_EM ;
++N+Msc: NOMPL_Y ;
++N+Msc: GENPL_U ;
++N+Msc: DATPL_UM ;
++N+Msc: ACCPL_Y ;
++N+Msc: VOCPL_Y ;
++N+Msc: LOCPL_ICH ;
++N+Msc: ISTPL_Y ;
 
 LEXICON DIVAK
 +N+Msc: NOM_0 ;
@@ -162,37 +150,56 @@ LEXICON DIVAK
 +N+Msc: DAT_OVI ;
 +N+Msc: DAT_U ;
 +N+Msc: ACC_A ;
-+N+Msc: VOK_U ;
-+N+Msc: LOK_OVI ;
-+N+Msc: LOK_U ;
-+N+Msc: INST_EM ;
-+N+Msc: NOM_OVE ;
-+N+Msc: NOM_I ;
-+N+Msc: GEN_U ;
-+N+Msc: DAT_UM ;
-+N+Msc: ACC_Y ;
-+N+Msc: VOK_OVE ;
-+N+Msc: VOK_I ;
-+N+Msc: LOC_íCH ;
-+N+Msc: INST_Y ;
++N+Msc: VOC_U ;
++N+Msc: LOC_OVI ;
++N+Msc: LOC_U ;
++N+Msc: IST_EM ;
++N+Msc: NOMPL_OVE ;
++N+Msc: NOMPL_I ;
++N+Msc: GENPL_U ;
++N+Msc: DATPL_UM ;
++N+Msc: ACCPL_Y ;
++N+Msc: VOCPL_OVE ;
++N+Msc: VOCPL_I ;
++N+Msc: LOCPL_ICH ;
++N+Msc: ISTPL_Y ;
 
 LEXICON KOLEGA
 +N+Msc: NOM_A ;
 +N+Msc: GEN_Y ;
 +N+Msc: DAT_OVI ;
 +N+Msc: ACC_U ;
-+N+Msc: VOK_O ;
-+N+Msc: LOK_OVI ;
-+N+Msc: INST_OU ;
-+N+Msc: NOM_OVE ;
-+N+Msc: GEN_U ;
-+N+Msc: DAT_UM ;
-+N+Msc: ACC_Y ;
-+N+Msc: VOK_OVE ;
-+N+Msc: LOC_íCH ;
-+N+Msc: INST_Y ;
++N+Msc: VOC_O ;
++N+Msc: LOC_OVI ;
++N+Msc: IST_OU ;
++N+Msc: NOMPL_OVE ;
++N+Msc: GENPL_U ;
++N+Msc: DATPL_UM ;
++N+Msc: ACCPL_Y ;
++N+Msc: VOCPL_OVE ;
++N+Msc: LOCPL_ICH ;
++N+Msc: ISTPL_Y ;
 
-!singular_declination
+
+! Feminine lexica
+! ===============
+
+
+
+! Neuter lexica
+! =============
+
+
+
+! =============== !
+! Noun declension !
+! =============== !
+
+! singular_declination
+! --------------------
+
+LEXICON NOM_0
++Sg: # ;
 
 LEXICON NOM_A
 +Sg+Nom:%>a # ;
@@ -233,16 +240,16 @@ LEXICON ACC_A
 LEXICON ACC_U
 +Sg+Acc:%>u # ;
 
-LEXICON VOK_U
+LEXICON VOC_U
 +Sg+Vok:%>u # ;
 
-LEXICON VOK_E
+LEXICON VOC_E
 +Sg+Vok:%>e # ;
 
-LEXICON VOK_I
+LEXICON VOC_I
 +Sg+Vok:%>i # ;
 
-LEXICON VOK_O
+LEXICON VOC_O
 +Sg+Vok:%>o # ;
 
 LEXICON LOC_OVI
@@ -257,94 +264,69 @@ LEXICON LOC_U
 LEXICON LOC_E
 +Sg+Loc:%>e # ;
 
-LEXICON LOC_IJE
-+Sg+Loc:%>e # ;
+LEXICON LOC_IE
++Sg+Loc:%>ě # ;
 
-LEXICON INST_EM
+LEXICON IST_EM
 +Sg+Inst:%>em # ;
 
-LEXICON INST_OU
+LEXICON IST_OU
 +Sg+Inst:%>ou # ;
 
-!plural_declination
 
-LEXICON NOM_OVE
+
+! plural_declination
+! ------------------
+
+LEXICON NOMPL_OVE
 +Pl+Nom:%>ové # ;
 
-LEXICON NOM_I
+LEXICON NOMPL_I
 +Pl+Nom:%>i # ;
 
-LEXICON NOM_Y
+LEXICON NOMPL_Y
 +Pl+Nom:%>y # ;
 
-LEXICON NOM_E
+LEXICON NOMPL_E
 +Pl+Nom:%>e # ;
 
-LEXICON GEN_U
-+Pl+Gen:%>u # ;
+LEXICON GENPL_U
++Pl+Gen:%>ů # ;
 
-LEXICON DAT_UM
-+Pl+Dat:%>um # ;
+LEXICON DATPL_UM
++Pl+Dat:%>ům # ;
 
-LEXICON ACC_Y
+LEXICON ACCPL_Y
 +Pl+Acc:%>y # ;
 
-LEXICON ACC_E
+LEXICON ACCPL_E
 +Pl+Acc:%>e # ;
 
-LEXICON VOK_OVE
+LEXICON VOCPL_OVE
 +Pl+Vok:%>ové # ;
 
-LEXICON VOK_I
+LEXICON VOCPL_I
 +Pl+Vok:%>i # ;
 
-LEXICON VOK_Y
+LEXICON VOCPL_Y
 +Pl+Vok:%>y # ;
 
-LEXICON VOK_E
+LEXICON VOCPL_E
 +Pl+Vok:%>e # ;
 
-LEXICON LOC_ECH
+LEXICON LOCPL_ECH
 +Pl+Loc:%>ech # ;
 
-LEXICON LOC_ICH
+LEXICON LOCPL_ICH
 +Pl+Loc:%>ích # ;
 
-LEXICON INST_Y
+LEXICON ISTPL_Y
 +Pl+Inst:%>y # ;
 
-LEXICON INST_I
+LEXICON ISTPL_I
 +Pl+Inst:%>i # ;
 
-LEXICON mu
-# ;
+LEXICON ISTPL_EM
++Pl+Inst:%>em # ;
 
-LEXICON MUZ
-# ;
 
-LEXICON PREDSEDA
-# ;
-
-LEXICON LOK_U
-# ;
-
-LEXICON LOK_OVI
-# ;
-
-LEXICON NOM_0
-# ;
-
-LEXICON LOK_IE
-# ;
-
-LEXICON LOC_C
-# ;
-
-LEXICON LOC_IICH
-# ;
-
-LEXICON LOK_I
-# ;
-
-LEXICON LOK_E
-# ;

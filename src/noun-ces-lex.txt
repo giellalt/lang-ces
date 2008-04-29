@@ -1,5 +1,4 @@
 LEXICON Noun 
-test mu ; ! testord
 pán PAN ;
 
 muž MUZ ;
@@ -7,3 +6,9 @@ hrad HRAD ;
 stroj STROJ ;
 predseda PREDSEDA ;
 soudce SOUDCE ;
+kolega KOLEGA ;
+les LES ;
+zámek ZAMEK ;
+divák DIVAK ;
+
+

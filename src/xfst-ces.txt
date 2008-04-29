@@ -7,13 +7,15 @@ echo << THE DEFININTIONS >>
 
 echo << defining Vow >>
 
-define Vow [ a | e | i | o | y | á | é | í | ó 
-           | A | E | I | O | Y | Á | É | Í | Ó
-           ];
+define Vow [ a | e | i | o | u | y | á | é | í | ó 
+             ů | ú | ý | ě 
+           | A | E | I | O | U | Y | Á | É | Í | Ó 
+           | Ů | Ú | Ý | Ě ];
 
 echo << defining Cns >>
 define Cns [ b | c | d | f | g | h | j | k | l | m | n
-           | p | q | r | s | t | v | w | x | z ];
+           | p | q | r | s | t | v | w | x | z 
+           | š | č | ď | ř | ž | ť ];
 
 define Syll [ (Cns) (Cns) Vow (Cns) (Cns) ] ; 
 
