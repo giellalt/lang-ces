@@ -1,3 +1,6 @@
+
+
+
 LEXICON Noun 
 
 ! Masculines
@@ -19,6 +22,15 @@ divák DIVAK ;
 ! =========
 
 žena ZENA ;
+růže RUZE ;
+píseň PISEN ;   
 kost KOST ;
+škola SKOLA ;
 
+!Neutra
+!======
 
+město MESTO ;
+morře MORE ;   
+kuře KURE ; 
+stavení STAVENI ; 
