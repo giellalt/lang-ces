@@ -184,11 +184,91 @@ LEXICON KOLEGA
 ! Feminine lexica
 ! ===============
 
+LEXICON ZENA
++N+Fem: NOM_A ;
++N+Fem: GEN_Y ;
++N+Fem: DAT_IE ;
++N+Fem: ACC_U ;
++N+Fem: VOC_O ;
++N+Fem: LOC_IE ;
++N+Fem: IST_OU ;
++N+Fem: NOMPL_Y ;
++N+Fem: GENPL_0 ;
++N+Fem: DATPL_AM ;
++N+Fem: ACCPL_Y ;
++N+Fem: VOCPL_Y ;
++N+Fem: LOCPL_ACH ;
++N+Fem: ISTPL_AMI ;
 
+LEXICON RUZE
++N+Fem: NOM_E ;
++N+Fem: GEN_E ;
++N+Fem: DAT_I ;
++N+Fem: ACC_I ;
++N+Fem: VOC_E ;
++N+Fem: LOC_I ;
++N+Fem: IST_I ;
++N+Fem: NOMPL_E ;
++N+Fem: GENPL_I ;
++N+Fem: DATPL_IM ;
++N+Fem: ACCPL_E ;
++N+Fem: VOCPL_E ;
++N+Fem: LOCPL_ICH ;
++N+Fem: ISTPL_EMI ;
+
+LEXICON PISEN
++N+Fem: NOM_0 ;
++N+Fem: GEN_E ;
++N+Fem: DAT_I ;
++N+Fem: ACC_0 ;
++N+Fem: VOC_I ;
++N+Fem: LOC_I ;
++N+Fem: IST_I ;
++N+Fem: NOMPL_E ;
++N+Fem: GENPL_I ;
++N+Fem: DATPL_IM ;
++N+Fem: ACCPL_E ;
++N+Fem: VOCPL_E ;
++N+Fem: LOCPL_ICH ;
++N+Fem: ISTPL_EMI ;
+
+LEXICON KOST
++N+Fem: NOM_0 ;
++N+Fem: GEN_I ;
++N+Fem: DAT_I ;
++N+Fem: ACC_0 ;
++N+Fem: VOC_I ;
++N+Fem: LOC_I ;
++N+Fem: IST_I ;
++N+Fem: NOMPL_I ;
++N+Fem: GENPL_I ;
++N+Fem: DATPL_EM ;
++N+Fem: ACCPL_I ;
++N+Fem: VOCPL_I ;
++N+Fem: LOCPL_ECH ;
++N+Fem: ISTPL_MI ;
+
+LEXICON SKOLA
++N+Fem: NOM_A ;
++N+Fem: GEN_Y ;
++N+Fem: DAT_E ;
++N+Fem: ACC_U ;
++N+Fem: VOC_O ;
++N+Fem: LOC_IE ;
++N+Fem: IST_OU ;
++N+Fem: NOMPL_Y ;
++N+Fem: GENPL_0 ;
++N+Fem: DATPL_AM ;
++N+Fem: ACCPL_Y ;
++N+Fem: VOCPL_Y ;
++N+Fem: LOCPL_ACH ;
++N+Fem: ISTPL_AMI ;
 
 ! Neuter lexica
 ! =============
 
+LEXICON MESTO 
+# ;
 
 
 ! =============== !
@@ -199,7 +279,7 @@ LEXICON KOLEGA
 ! --------------------
 
 LEXICON NOM_0
-+Sg: # ;
++Sg+Nom: # ;
 
 LEXICON NOM_A
 +Sg+Nom:%>a # ;
@@ -216,8 +296,20 @@ LEXICON GEN_U
 LEXICON GEN_E
 +Sg+Gen:%>e # ;
 
+LEXICON GEN_IE
++Sg+Gen:%>ě # ;
+
+LEXICON GEN_I
++Sg+Gen:%>i # ; 
+
 LEXICON GEN_Y
 +Sg+Gen:%>y # ;
+
+LEXICON DAT_E
++Sg+Dat:%>e # ;
+
+LEXICON DAT_IE
++Sg+Dat:%>ě # ;
 
 LEXICON DAT_OVI
 +Sg+Dat:%>ovi # ;
@@ -236,6 +328,9 @@ LEXICON ACC_0
 
 LEXICON ACC_A
 +Sg+Acc:%>a # ;
+
+LEXICON ACC_I
++Sg+Acc:%>i # ;
 
 LEXICON ACC_U
 +Sg+Acc:%>u # ;
@@ -273,6 +368,8 @@ LEXICON IST_EM
 LEXICON IST_OU
 +Sg+Inst:%>ou # ;
 
+LEXICON IST_I
++Sg+Inst:%>í # ;
 
 
 ! plural_declination
@@ -284,6 +381,9 @@ LEXICON NOMPL_OVE
 LEXICON NOMPL_I
 +Pl+Nom:%>i # ;
 
+LEXICON NOMPL_IE
++Pl+Nom:%>ě # ;
+
 LEXICON NOMPL_Y
 +Pl+Nom:%>y # ;
 
@@ -293,14 +393,38 @@ LEXICON NOMPL_E
 LEXICON GENPL_U
 +Pl+Gen:%>ů # ;
 
+LEXICON GENPL_0
++Pl+Gen:%>  # ; 
+
+LEXICON GENPL_I
++Pl+Gen:%>í # ;
+
 LEXICON DATPL_UM
 +Pl+Dat:%>ům # ;
+
+LEXICON DATPL_AM
++Pl+Dat:%>ám # ; 
+
+LEXICON DATPL_IM
++Pl+Dat:%>ím # ;
+
+LEXICON DATPL_EM
++Pl+Dat:%>em # ;
 
 LEXICON ACCPL_Y
 +Pl+Acc:%>y # ;
 
 LEXICON ACCPL_E
 +Pl+Acc:%>e # ;
+
+LEXICON ACCPL_I
++Pl+Acc:%>i # ; 
+
+LEXICON ACCPL_IE
++Pl+Acc:%>ě  # ; 
+
+LEXICON VOCPL_IE
++Pl+Vok:%>ě  # ; 
 
 LEXICON VOCPL_OVE
 +Pl+Vok:%>ové # ;
@@ -320,6 +444,9 @@ LEXICON LOCPL_ECH
 LEXICON LOCPL_ICH
 +Pl+Loc:%>ích # ;
 
+LEXICON LOCPL_ACH
++Pl+Loc:%>ách # ;
+
 LEXICON ISTPL_Y
 +Pl+Inst:%>y # ;
 
@@ -328,5 +455,15 @@ LEXICON ISTPL_I
 
 LEXICON ISTPL_EM
 +Pl+Inst:%>em # ;
+
+LEXICON ISTPL_AMI
++Pl+Inst:%>ami # ;
+
+LEXICON ISTPL_EMI
++Pl+Inst:%>emi # ;
+
+LEXICON ISTPL_MI
++Pl+Inst:%>mi # ;
+
 
 

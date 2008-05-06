@@ -1,4 +1,8 @@
 LEXICON Noun 
+
+! Masculines
+! ==========
+
 pán PAN ;
 
 muž MUZ ;
@@ -10,5 +14,11 @@ kolega KOLEGA ;
 les LES ;
 zámek ZAMEK ;
 divák DIVAK ;
+
+! Feminines
+! =========
+
+žena ZENA ;
+kost KOST ;
 
 
