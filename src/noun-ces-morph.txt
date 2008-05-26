@@ -1,8 +1,7 @@
-
 ! Masculine lexica
 ! ================
 
-LEXICON PAN
+LEXICON PAN_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_A ;
 +N+Msc: DAT_OVI ;
@@ -12,6 +11,8 @@ LEXICON PAN
 +N+Msc: LOC_OVI ;
 +N+Msc: LOC_U ;
 +N+Msc: IST_EM ;
+
+LEXICON PAN_PL
 +N+Msc: NOMPL_OVE ;
 +N+Msc: NOMPL_I ;
 +N+Msc: GENPL_U ;
@@ -22,7 +23,7 @@ LEXICON PAN
 +N+Msc: LOCPL_ECH ;
 +N+Msc: ISTPL_Y ;
 
-LEXICON HRAD
+LEXICON HRAD_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_U ;
 +N+Msc: DAT_U ;
@@ -31,6 +32,8 @@ LEXICON HRAD
 +N+Msc: LOC_IE ;
 +N+Msc: LOC_U ;
 +N+Msc: IST_EM ;
+
+LEXICON HRAD_PL
 +N+Msc: NOMPL_Y ;
 +N+Msc: GENPL_U ;
 +N+Msc: DATPL_UM ;
@@ -39,7 +42,7 @@ LEXICON HRAD
 +N+Msc: LOCPL_ECH ;
 +N+Msc: ISTPL_Y ;
 
-LEXICON MUZ
+LEXICON MUZ_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_E ;
 +N+Msc: DAT_OVI ;
@@ -50,6 +53,7 @@ LEXICON MUZ
 +N+Msc: LOC_I ;
 +N+Msc: IST_EM ;
 
+LEXICON MUZ_PL
 +N+Msc: NOMPL_OVE ;
 +N+Msc: NOMPL_I ;
 +N+Msc: GENPL_U ;
@@ -60,7 +64,7 @@ LEXICON MUZ
 +N+Msc: LOCPL_IICH ;
 +N+Msc: ISTPL_I ;
 
-LEXICON STROJ
+LEXICON STROJ_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_E ;
 +N+Msc: DAT_I ;
@@ -68,6 +72,8 @@ LEXICON STROJ
 +N+Msc: VOC_I ;
 +N+Msc: LOC_I ;
 +N+Msc: IST_EM ;
+
+LEXICON STROJ_PL
 +N+Msc: NOMPL_E ;
 +N+Msc: GENPL_U ;
 +N+Msc: DATPL_UM ;
@@ -76,7 +82,7 @@ LEXICON STROJ
 +N+Msc: LOCPL_IICH ;
 +N+Msc: ISTPL_I ;
 
-LEXICON PREDSEDA
+LEXICON PREDSEDA_SG
 +N+Msc: NOM_A ;
 +N+Msc: GEN_Y ;
 +N+Msc: DAT_OVI ;
@@ -84,6 +90,8 @@ LEXICON PREDSEDA
 +N+Msc: VOC_O ;
 +N+Msc: LOC_OVI ;
 +N+Msc: IST_OU ;
+
+LEXICON PREDSEDA_PL
 +N+Msc: NOMPL_OVE ;
 +N+Msc: GENPL_U ;
 +N+Msc: DATPL_UM ;
@@ -92,7 +100,7 @@ LEXICON PREDSEDA
 +N+Msc: LOCPL_ECH ;
 +N+Msc: ISTPL_Y ;
 
-LEXICON SOUDCE
+LEXICON SOUDCE_SG
 +N+Msc: NOM_E ;
 +N+Msc: GEN_E ;
 +N+Msc: DAT_I ;
@@ -101,6 +109,8 @@ LEXICON SOUDCE
 +N+Msc: LOC_OVI ;
 +N+Msc: LOC_I ;
 +N+Msc: IST_EM ;
+
+LEXICON SOUDCE_PL
 +N+Msc: NOMPL_OVE ;
 +N+Msc: NOMPL_I ;
 +N+Msc: GENPL_U ;
@@ -111,7 +121,7 @@ LEXICON SOUDCE
 +N+Msc: LOCPL_IICH ;
 +N+Msc: ISTPL_I ;
 
-LEXICON LES
+LEXICON LES_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_A ;
 +N+Msc: DAT_U ;
@@ -120,15 +130,8 @@ LEXICON LES
 +N+Msc: LOC_E ;
 +N+Msc: LOC_U ;
 +N+Msc: IST_EM ;
-+N+Msc: NOMPL_Y ;
-+N+Msc: GENPL_U ;
-+N+Msc: DATPL_UM ;
-+N+Msc: ACCPL_Y ;
-+N+Msc: VOCPL_Y ;
-+N+Msc: LOCPL_ECH ;
-+N+Msc: ISTPL_Y ;
 
-LEXICON ZAMEK
+LEXICON ZAMEK_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_U ;
 +N+Msc: DAT_U ;
@@ -136,6 +139,8 @@ LEXICON ZAMEK
 +N+Msc: VOC_U ;
 +N+Msc: LOC_U ;
 +N+Msc: ISTPL_EM ;
+
+LEXICON ZAMEK_PL 
 +N+Msc: NOMPL_Y ;
 +N+Msc: GENPL_U ;
 +N+Msc: DATPL_UM ;
@@ -144,7 +149,7 @@ LEXICON ZAMEK
 +N+Msc: LOCPL_IICH ;
 +N+Msc: ISTPL_Y ;
 
-LEXICON DIVAK
+LEXICON DIVAK_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_A ;
 +N+Msc: DAT_OVI ;
@@ -154,6 +159,8 @@ LEXICON DIVAK
 +N+Msc: LOC_OVI ;
 +N+Msc: LOC_U ;
 +N+Msc: IST_EM ;
+
+LEXICON DIVAK_PL
 +N+Msc: NOMPL_OVE ;
 +N+Msc: NOMPL_I ;
 +N+Msc: GENPL_U ;
@@ -164,14 +171,7 @@ LEXICON DIVAK
 +N+Msc: LOCPL_IICH ;
 +N+Msc: ISTPL_Y ;
 
-LEXICON KOLEGA
-+N+Msc: NOM_A ;
-+N+Msc: GEN_Y ;
-+N+Msc: DAT_OVI ;
-+N+Msc: ACC_U ;
-+N+Msc: VOC_O ;
-+N+Msc: LOC_OVI ;
-+N+Msc: IST_OU ;
+LEXICON KOLEGA_PL
 +N+Msc: NOMPL_OVE ;
 +N+Msc: GENPL_U ;
 +N+Msc: DATPL_UM ;
@@ -223,14 +223,7 @@ LEXICON PISEN
 +N+Fem: ACC_0 ;
 +N+Fem: VOC_I ;
 +N+Fem: LOC_I ;
-+N+Fem: IST_I ;
-+N+Fem: NOMPL_E ;
-+N+Fem: GENPL_II ;
-+N+Fem: DATPL_IIM ;
-+N+Fem: ACCPL_E ;
-+N+Fem: VOCPL_E ;
-+N+Fem: LOCPL_IICH ;
-+N+Fem: ISTPL_EMI ;
++N+Fem: IST_II ;
 
 LEXICON KOST
 +N+Fem: NOM_0 ;
@@ -239,7 +232,7 @@ LEXICON KOST
 +N+Fem: ACC_0 ;
 +N+Fem: VOC_I ;
 +N+Fem: LOC_I ;
-+N+Fem: IST_I ;
++N+Fem: IST_II ;
 +N+Fem: NOMPL_I ;
 +N+Fem: GENPL_II ;
 +N+Fem: DATPL_EM ;
@@ -264,6 +257,10 @@ LEXICON SKOLA
 +N+Fem: LOCPL_ACH ;
 +N+Fem: ISTPL_AMI ;
 
+LEXICON RUKA 
++N+Fem: GENPL_OU ;
++N+Fem: LOCPL_OU ;
++N+Fem: ISTPL_AMA
 ! Neuter lexica
 ! =============
 
@@ -512,6 +509,9 @@ LEXICON GENPL_II
 LEXICON GENPL_AT
 +Pl+Gen:%>at # ;
 
+LEXICON GENPL_OU
++PL+Gen:%>ou # ;
+
 LEXICON DATPL_UM
 +Pl+Dat:%>ům # ;
 
@@ -584,6 +584,9 @@ LEXICON LOCPL_IICH
 LEXICON LOCPL_ACH
 +Pl+Loc:%>ách # ;
 
+LEXICON LOCPL_OU
++Pl+Loc:%>ou # ;
+
 LEXICON ISTPL_Y
 +Pl+Inst:%>y # ;
 
@@ -607,3 +610,7 @@ LEXICON ISTPL_ATY
 
 LEXICON ISTPL_IIMI
 +Pl+Inst:%>ími # ;
+
+LEXICON ISTPL_AMA
++Pl+Inst:%>ama # ;
+
