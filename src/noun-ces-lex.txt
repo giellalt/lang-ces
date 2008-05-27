@@ -19,6 +19,15 @@ manžel PAN ;
 osel:ose2l PAN ;
 člověk:člověk PAN_SG ;
 člověk:lide2 LIDE_PL ;
+kovář MUZ ;
+truhlář MUZ ;
+nápad HRAD ;
+úraz HRAD ;
+hoboj STROJ ;
+starosta PREDSEDA ;
+basista PREDSEDA ;
+vládce SOUDCE ;
+nástupce SOUDCE ;
 
 ! Feminines
 ! =========
