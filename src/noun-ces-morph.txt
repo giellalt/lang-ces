@@ -210,6 +210,7 @@ LEXICON DIVAK_PL
 LEXICON KOLEGA
 PREDSEDA_SG ;
 KOLEGA_PL ;
+
 LEXICON KOLEGA_PL
 +N+Msc: NOMPL_OVE ;
 +N+Msc: GENPL_U ;
@@ -349,6 +350,7 @@ LEXICON PALICE_PL
 LEXICON MESTO
 MESTO_SG ;
 MESTO_PL ;
+
 LEXICON MESTO_SG 
 +N+Neu: NOM_O ;
 +N+Neu: GEN_A ;
@@ -523,19 +525,19 @@ LEXICON ACC_U
 +Sg+Acc:%>u # ;
 
 LEXICON VOC_U
-+Sg+Vok:%>u # ;
++Sg+Voc:%>u # ;
 
 LEXICON VOC_E
-+Sg+Vok:%>e # ;
++Sg+Voc:%>e # ;
 
 LEXICON VOC_I
-+Sg+Vok:%>i # ;
++Sg+Voc:%>i # ;
 
 LEXICON VOC_II
 +Sg+Voc:%>í # ;
 
 LEXICON VOC_O
-+Sg+Vok:%>o # ;
++Sg+Voc:%>o # ;
 
 LEXICON LOC_OVI
 +Sg+Loc:%>ovi # ;
@@ -559,19 +561,19 @@ LEXICON LOC_IE
 +Sg+Loc:%>ě # ;
 
 LEXICON IST_EM
-+Sg+Inst:%>em # ;
++Sg+Ins:%>em # ;
 
 LEXICON IST_ETEM
-+Sg+Inst:%>tem # ;
++Sg+Ins:%>tem # ;
 
 LEXICON IST_IIM
-+Sg+Inst:%>ím # ;
++Sg+Ins:%>ím # ;
 
 LEXICON IST_OU
-+Sg+Inst:%>ou # ;
++Sg+Ins:%>ou # ;
 
 LEXICON IST_II
-+Sg+Inst:%>í # ;
++Sg+Ins:%>í # ;
 
 
 ! plural_declination
@@ -692,29 +694,29 @@ LEXICON LOCPL_OU
 +Pl+Loc:%>ou # ;
 
 LEXICON ISTPL_Y
-+Pl+Inst:%>y # ;
++Pl+Ins:%>y # ;
 
 LEXICON ISTPL_I
-+Pl+Inst:%>i # ;
++Pl+Ins:%>i # ;
 
 LEXICON ISTPL_EM
-+Pl+Inst:%>em # ;
++Pl+Ins:%>em # ;
 
 LEXICON ISTPL_AMI
-+Pl+Inst:%>ami # ;
++Pl+Ins:%>ami # ;
 
 LEXICON ISTPL_EMI
-+Pl+Inst:%>emi # ;
++Pl+Ins:%>emi # ;
 
 LEXICON ISTPL_MI
-+Pl+Inst:%>mi # ;
++Pl+Ins:%>mi # ;
 
 LEXICON ISTPL_ATY
-+Pl+Inst:%>aty # ;
++Pl+Ins:%>aty # ;
 
 LEXICON ISTPL_IIMI
-+Pl+Inst:%>ími # ;
++Pl+Ins:%>ími # ;
 
 LEXICON ISTPL_AMA
-+Pl+Inst:%>ama # ;
++Pl+Ins:%>ama # ;
 

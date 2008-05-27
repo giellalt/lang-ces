@@ -36,14 +36,20 @@ define Boundary %> ;
 
 echo << defining the rules >>
 
-define DisappearingVow e2 -> 0 || _ Cns Vow %> ;
-define AppearanceofE e2 -> e || _ Cns %> ;
+define LightVow  Vow -> 0 || _ %> Vow ;
+define DisappearingVow e2 -> 0 || _ Cns %> Vow ; ! ose2l%>a = os0l0a
+define AppearanceofE e2 -> e || _ Cns [.#.| %> Cns ] ;
+define eZmekcovanisouhlasek [ k %> ě -> c %> e ,
+                              g %> ě -> z %> e ,
+                              r %> ě -> ř %> e ,
+                            c h %> ě -> š %> e ,
+                              h %> ě -> ž %> e ] ;
+
 define Zmekcovanisouhlasek [ k -> c ,
                              g -> z ,
                              r -> ř ,
                            c h -> š ,
-                             h -> ž || _ [ě|i] %> ] ;
-
+                             h -> ž || _ %> [ě|i|í] ] ;
 
 echo << cleanup >>
 
@@ -53,11 +59,14 @@ define NoMorphoPhonemes e2 -> e ;
 echo << composing different parts >>
 
 read regex [ 
-    DisappearingVow
+
+    LightVow
+.o. eZmekcovanisouhlasek
+.o. Zmekcovanisouhlasek
+.o. DisappearingVow
+.o. AppearanceofE
 .o. DummyDeletion
 .o. NoMorphoPhonemes
-.o. AppearanceofE
-.o. Zmekcovanisouhlasek
 ] ;
 
 

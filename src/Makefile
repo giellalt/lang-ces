@@ -10,10 +10,10 @@
 XFST = xfst -utf8
 LEXC = lexc -utf8
 
-ifeq (victorio.uit.no, $(shell hostname))
-XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
-LEXC = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/lexc -utf8
-endif
+#ifeq (victorio.uit.no, $(shell hostname))
+#XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
+#LEXC = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/lexc -utf8
+#endif
 
 
 SRCS =  ces-lex.txt \

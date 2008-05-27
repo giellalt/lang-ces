@@ -16,7 +16,7 @@ zámek ZAMEK ;
 divák DIVAK ;
 chuligán PAN ;
 manžel PAN ;
-osel PAN ;
+osel:ose2l PAN ;
 
 ! Feminines
 ! =========
@@ -85,11 +85,11 @@ nerozvážnost KOST ;
 
 město MESTO ;
 kamna MESTO_PL ; !kamna only plural
-okno MESTO ;
-žezlo MESTO ;
-jídlo MESTO ;
-pivo MESTO ;
-prádlo MESTO ;
+okno:okn MESTO ;
+žezlo:žezl MESTO ;
+jídlo:jídl MESTO ;
+pivo:piv MESTO ;
+prádlo MESTO_SG ; !only singular
 beranidlo MESTO ;
 mléko MESTO ;
 vajíčko MESTO ;
