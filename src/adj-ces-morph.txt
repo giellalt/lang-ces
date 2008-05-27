@@ -19,11 +19,9 @@ LEXICON SUP
 Sup:est CASENUM ;
 
 
-
 LEXICON CASENUM
 a-m ;
 a-f ;
-!a-n ;
 
 LEXICON a-m
 +Msc+Sg+Nom:y # ;

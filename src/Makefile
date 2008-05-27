@@ -7,16 +7,24 @@
 # Here we build the final generator , an inverted transducer of the analyzer.
 # It is dependent upon ces.save
 
+XFST = xfst -utf8
+LEXC = lexc -utf8
+
 
 ifeq (victorio.uit.no, $(shell hostname))
 XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
 LEXC = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4bin/lexc -utf8
 endif
 
-XFST = xfst -utf8
-LEXC = lexc -utf8
-TWOLC = twolc -utf8
 
+
+SRCS = ces-lex.txt noun-ces-morph.txt noun-ces-lex.txt \
+        adj-ces-lex.txt adj-ces-morph.txt verb-ces-lex.txt verb-ces-morph.txt \
+	adv-ces-lex.txt pron-ces-lex.txt punct-ces-lex.txt \
+	pp-ces-lex.txt cc-ces-lex.txt cs-ces-lex.txt
+
+# This is the ultimate goal, the inverse transducer ices.fst
+# It depends on all the files.
 
 ices.fst: ../bin/ices.fst
 ../bin/ices.fst: ../bin/ces.fst
@@ -31,7 +39,7 @@ ices.fst: ../bin/ices.fst
 	@rm -f ../../tmp/ices-fst-script
 
 
-# This goal is to build the final analyser. It depends on all the files.
+# This goal is to build the ... almost ... final analyser, ces.fst. 
 
 ces.fst: ../bin/ces.fst
 ../bin/ces.fst: ../bin/ces.save ../bin/caseconv.fst
@@ -61,6 +69,9 @@ caseconv.fst: ../bin/caseconv.fst
 	@rm -f ../../tmp/caseconv-script
 
 
+# Here we build ces.save, without capital normalisation, 
+# and working as input to the inverse ices.fst.
+
 ces.save: ../bin/ces.save
 ../bin/ces.save: ../bin/xfst-ces.bin ../bin/ces-lex.save
 	@echo
@@ -77,18 +88,11 @@ ces.save: ../bin/ces.save
 # This goal depends on a bunch of lexicon files
 
 ces-lex.save: ../bin/ces-lex.save
-../bin/ces-lex.save: ces-lex.txt noun-ces-morph.txt noun-ces-lex.txt \
-        adj-ces-lex.txt adj-ces-morph.txt verb-ces-lex.txt verb-ces-morph.txt \
-	adv-ces-lex.txt pron-ces-lex.txt punct-ces-lex.txt \
-	pp-ces-lex.txt cc-ces-lex.txt cs-ces-lex.txt
+../bin/ces-lex.save: $(SRCS)
 	@echo
 	@echo "*** Building ces-lex.save ***" ;
 	@echo
-	printf "compile-source ces-lex.txt noun-ces-morph.txt noun-ces-lex.txt \
-	verb-ces-lex.txt verb-ces-morph.txt adj-ces-lex.txt adj-ces-morph.txt ´\
-	pron-ces-lex.txt adv-ces-lex.txt pp-ces-lex.txt \
-	punct-ces-lex.txt cc-ces-lex.txt \
-	cs-ces-lex.txt \n\
+	printf "compile-source $(SRCS) \n\
 	save-source ../bin/ces-lex.save \n\
 	quit \n" > ../../tmp/ces-lex-save-script
 	$(LEXC) < ../../tmp/ces-lex-save-script
