@@ -8,7 +8,7 @@ echo << THE DEFININTIONS >>
 echo << defining Vow >>
 
 define Vow [ a | e | i | o | u | y | á | é | í | ó 
-             ů | ú | ý | ě 
+             ů | ú | ý | ě | e2
            | A | E | I | O | U | Y | Á | É | Í | Ó 
            | Ů | Ú | Ý | Ě ];
 
@@ -36,18 +36,20 @@ define Boundary %> ;
 
 echo << defining the rules >>
 
-define DisappearingVow e -> 0 || _ n %> ;
+define DisappearingVow e2 -> 0 || _ n %> ;
 
 
 echo << cleanup >>
 
 define DummyDeletion Boundary -> 0 ;
+define NoMorphoPhonemes e2 -> e ;
 
 echo << composing different parts >>
 
 read regex [ 
-     DisappearingVow
+    DisappearingVow
 .o. DummyDeletion
+.o. NoMorphophonemes
 ] ;
 
 
