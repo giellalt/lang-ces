@@ -1,2 +1,2 @@
-LEXICON I
+LEXICON DeclI
 +V+Ind+Sg1:u # ;

@@ -1,3 +1,6 @@
+
+
+
 LEXICON Verb
-nést:nes I ;
-test:tes I ; ! test, tull
+nést:nes DeclI ;
+
