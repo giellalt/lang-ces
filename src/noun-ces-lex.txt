@@ -79,6 +79,7 @@ radost KOST ;
 bláznivost KOST ;
 zbrklost KOST ;
 nerozvážnost KOST ;
+odvážnost KOST ;
 
 !Neutra
 !======
