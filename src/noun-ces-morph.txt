@@ -1,6 +1,10 @@
 ! Masculine lexica
 ! ================
 
+LEXICON PAN
+PAN_SG ;
+PAN_PL ;
+
 LEXICON PAN_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_A ;
@@ -23,6 +27,10 @@ LEXICON PAN_PL
 +N+Msc: LOCPL_ECH ;
 +N+Msc: ISTPL_Y ;
 
+LEXICON HRAD
+HRAD_SG ;
+HRAD_PL ;
+
 LEXICON HRAD_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_U ;
@@ -41,6 +49,10 @@ LEXICON HRAD_PL
 +N+Msc: VOCPL_Y ;
 +N+Msc: LOCPL_ECH ;
 +N+Msc: ISTPL_Y ;
+
+LEXICON MUZ
+MUZ_SG ;
+MUZ_PL ;
 
 LEXICON MUZ_SG
 +N+Msc: NOM_0 ;
@@ -64,6 +76,10 @@ LEXICON MUZ_PL
 +N+Msc: LOCPL_IICH ;
 +N+Msc: ISTPL_I ;
 
+LEXICON STROJ 
+STROJ_SG ;
+STROJ_PL ;
+
 LEXICON STROJ_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_E ;
@@ -82,6 +98,10 @@ LEXICON STROJ_PL
 +N+Msc: LOCPL_IICH ;
 +N+Msc: ISTPL_I ;
 
+LEXICON PREDSEDA
+PREDSEDA_SG ;
+PREDSEDA_PL ;
+
 LEXICON PREDSEDA_SG
 +N+Msc: NOM_A ;
 +N+Msc: GEN_Y ;
@@ -99,6 +119,10 @@ LEXICON PREDSEDA_PL
 +N+Msc: VOCPL_OVE ;
 +N+Msc: LOCPL_ECH ;
 +N+Msc: ISTPL_Y ;
+
+LEXICON SOUDCE
+SOUDCE_SG ;
+SOUDCE_PL ;
 
 LEXICON SOUDCE_SG
 +N+Msc: NOM_E ;
@@ -121,6 +145,10 @@ LEXICON SOUDCE_PL
 +N+Msc: LOCPL_IICH ;
 +N+Msc: ISTPL_I ;
 
+LEXICON LES 
+LES_SG ;
+HRAD_PL ;
+
 LEXICON LES_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_A ;
@@ -131,6 +159,10 @@ LEXICON LES_SG
 +N+Msc: LOC_U ;
 +N+Msc: IST_EM ;
 
+LEXICON ZAMEK
+ZAMEK_SG ;
+ZAMEK_PL ;
+
 LEXICON ZAMEK_SG
 +N+Msc: NOM_0 ;
 +N+Msc: GEN_U ;
@@ -138,7 +170,7 @@ LEXICON ZAMEK_SG
 +N+Msc: ACC_0 ;
 +N+Msc: VOC_U ;
 +N+Msc: LOC_U ;
-+N+Msc: ISTPL_EM ;
++N+Msc: IST_EM ;
 
 LEXICON ZAMEK_PL 
 +N+Msc: NOMPL_Y ;
@@ -148,6 +180,10 @@ LEXICON ZAMEK_PL
 +N+Msc: VOCPL_Y ;
 +N+Msc: LOCPL_IICH ;
 +N+Msc: ISTPL_Y ;
+
+LEXICON DIVAK
+DIVAK_SG ;
+DIVAK_PL ;
 
 LEXICON DIVAK_SG
 +N+Msc: NOM_0 ;
@@ -171,6 +207,9 @@ LEXICON DIVAK_PL
 +N+Msc: LOCPL_IICH ;
 +N+Msc: ISTPL_Y ;
 
+LEXICON KOLEGA
+PREDSEDA_SG ;
+KOLEGA_PL ;
 LEXICON KOLEGA_PL
 +N+Msc: NOMPL_OVE ;
 +N+Msc: GENPL_U ;
@@ -185,6 +224,10 @@ LEXICON KOLEGA_PL
 ! ===============
 
 LEXICON ZENA
+ZENA_SG ;
+ZENA_PL ;
+
+LEXICON ZENA_SG
 +N+Fem: NOM_A ;
 +N+Fem: GEN_Y ;
 +N+Fem: DAT_IE ;
@@ -192,6 +235,8 @@ LEXICON ZENA
 +N+Fem: VOC_O ;
 +N+Fem: LOC_IE ;
 +N+Fem: IST_OU ;
+
+LEXICON ZENA_PL
 +N+Fem: NOMPL_Y ;
 +N+Fem: GENPL_0 ;
 +N+Fem: DATPL_AM ;
@@ -201,13 +246,19 @@ LEXICON ZENA
 +N+Fem: ISTPL_AMI ;
 
 LEXICON RUZE
+RUZE_SG ;
+RUZE_PL ;
+
+LEXICON RUZE_SG
 +N+Fem: NOM_E ;
 +N+Fem: GEN_E ;
 +N+Fem: DAT_I ;
 +N+Fem: ACC_I ;
 +N+Fem: VOC_E ;
 +N+Fem: LOC_I ;
-+N+Fem: IST_I ;
++N+Fem: IST_II ;
+
+LEXICON RUZE_PL
 +N+Fem: NOMPL_E ;
 +N+Fem: GENPL_II ;
 +N+Fem: DATPL_IIM ;
@@ -216,7 +267,10 @@ LEXICON RUZE
 +N+Fem: LOCPL_IICH ;
 +N+Fem: ISTPL_EMI ;
 
-LEXICON PISEN
+LEXICON PISEN 
+PISEN_SG ;
+RUZE_PL ;
+LEXICON PISEN_SG
 +N+Fem: NOM_0 ;
 +N+Fem: GEN_E ;
 +N+Fem: DAT_I ;
@@ -226,6 +280,10 @@ LEXICON PISEN
 +N+Fem: IST_II ;
 
 LEXICON KOST
+KOST_SG ;
+KOST_PL ;
+
+LEXICON KOST_SG
 +N+Fem: NOM_0 ;
 +N+Fem: GEN_I ;
 +N+Fem: DAT_I ;
@@ -233,6 +291,8 @@ LEXICON KOST
 +N+Fem: VOC_I ;
 +N+Fem: LOC_I ;
 +N+Fem: IST_II ;
+
+LEXICON KOST_PL
 +N+Fem: NOMPL_I ;
 +N+Fem: GENPL_II ;
 +N+Fem: DATPL_EM ;
@@ -242,6 +302,10 @@ LEXICON KOST
 +N+Fem: ISTPL_MI ;
 
 LEXICON SKOLA
+SKOLA_SG ;
+SKOLA_PL ;
+
+LEXICON SKOLA_SG
 +N+Fem: NOM_A ;
 +N+Fem: GEN_Y ;
 +N+Fem: DAT_E ;
@@ -249,6 +313,8 @@ LEXICON SKOLA
 +N+Fem: VOC_O ;
 +N+Fem: LOC_IE ;
 +N+Fem: IST_OU ;
+
+LEXICON SKOLA_PL
 +N+Fem: NOMPL_Y ;
 +N+Fem: GENPL_0 ;
 +N+Fem: DATPL_AM ;
@@ -257,14 +323,33 @@ LEXICON SKOLA
 +N+Fem: LOCPL_ACH ;
 +N+Fem: ISTPL_AMI ;
 
-LEXICON RUKA 
+LEXICON RUKA_PL 
 +N+Fem: GENPL_OU ;
 +N+Fem: LOCPL_OU ;
-+N+Fem: ISTPL_AMA
++N+Fem: ISTPL_AMA ;
+
+LEXICON PALICE
+RUZE_SG ;
+PALICE_PL ;
+
+LEXICON PALICE_PL
++N+Fem: NOMPL_E ;
++N+Fem: GENPL_0 ;
++N+Fem: DATPL_IIM ;
++N+Fem: ACCPL_E ;
++N+Fem: VOCPL_E ;
++N+Fem: LOCPL_IICH ;
++N+Fem: ISTPL_EMI ;
+
+
+
 ! Neuter lexica
 ! =============
 
-LEXICON MESTO 
+LEXICON MESTO
+MESTO_SG ;
+MESTO_PL ;
+LEXICON MESTO_SG 
 +N+Neu: NOM_O ;
 +N+Neu: GEN_A ;
 +N+Neu: DAT_U ; 
@@ -273,6 +358,8 @@ LEXICON MESTO
 +N+Neu: LOC_IE ;
 +N+Neu: LOC_U ;
 +N+Neu: IST_EM ;
+
+LEXICON MESTO_PL
 +N+Neu: NOMPL_A ;
 +N+Neu: GENPL_0 ;
 +N+Neu: DATPL_UM ;
@@ -282,6 +369,10 @@ LEXICON MESTO
 +N+Neu: ISTPL_Y ;
 
 LEXICON MORE
+MORE_SG ;
+MORE_PL ;
+
+LEXICON MORE_SG
 +N+Neu: NOM_E ; 
 +N+Neu: GEN_E ; 
 +N+Neu: DAT_I ; 
@@ -289,6 +380,8 @@ LEXICON MORE
 +N+Neu: VOC_E ;
 +N+Neu: LOC_I ;
 +N+Neu: IST_EM ;
+
+LEXICON MORE_PL
 +N+Neu: NOMPL_E ; 
 +N+Neu: GENPL_II ; 
 +N+Neu: DATPL_IIM ;
@@ -298,6 +391,10 @@ LEXICON MORE
 +N+Neu: ISTPL_I ;
 
 LEXICON KURE
+KURE_SG ;
+KURE_PL ;
+
+LEXICON KURE_SG
 +N+Neu: NOM_E ;
 +N+Neu: GEN_ETE ;
 +N+Neu: DAT_ETI ;
@@ -305,6 +402,8 @@ LEXICON KURE
 +N+Neu: VOC_E ;
 +N+Neu: LOC_ETI ;
 +N+Neu: IST_EM ;
+
+LEXICON KURE_PL
 +N+Neu: NOMPL_ATA ;
 +N+Neu: GENPL_AT ;
 +N+Neu: DATPL_UM ;
@@ -314,6 +413,10 @@ LEXICON KURE
 +N+Neu: ISTPL_ATY ;
 
 LEXICON STAVENI
+STAVENI_SG ;
+STAVENI_PL ;
+
+LEXICON STAVENI_SG
 +N+Neu: NOM_II ;
 +N+Neu: GEN_II ;
 +N+Neu: DAT_II ;
@@ -321,6 +424,8 @@ LEXICON STAVENI
 +N+Neu: VOC_II ;
 +N+Neu: LOC_II ;
 +N+Neu: IST_IIM ;
+
+LEXICON STAVENI_PL
 +N+Neu: NOMPL_II ;
 +N+Neu: GENPL_II ;
 +N+Neu: DATPL_IIM ;
@@ -328,6 +433,8 @@ LEXICON STAVENI
 +N+Neu: VOCPL_II ;
 +N+Neu: LOCPL_IICH ;
 +N+Neu: ISTPL_IIMI ;
+
+
 
 
 ! =============== !
@@ -360,9 +467,6 @@ LEXICON GEN_U
 
 LEXICON GEN_E
 +Sg+Gen:%>e # ;
-
-LEXICON GEN_IE
-+Sg+Gen:%>ě # ;
 
 LEXICON GEN_I
 +Sg+Gen:%>i # ; 
@@ -466,7 +570,7 @@ LEXICON IST_IIM
 LEXICON IST_OU
 +Sg+Inst:%>ou # ;
 
-LEXICON IST_I
+LEXICON IST_II
 +Sg+Inst:%>í # ;
 
 
