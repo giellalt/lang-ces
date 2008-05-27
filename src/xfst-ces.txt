@@ -49,7 +49,7 @@ echo << composing different parts >>
 read regex [ 
     DisappearingVow
 .o. DummyDeletion
-.o. NoMorphophonemes
+.o. NoMorphoPhonemes
 ] ;
 
 
