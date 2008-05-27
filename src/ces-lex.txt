@@ -2,7 +2,7 @@
 Multichar_Symbols
 
 ! POS
-+N +V +A 
++N +V +A
 +Adv +CC +CS +Interj +Pron +Num +Pr
 
 ! Verbal MSP
@@ -17,6 +17,8 @@ Multichar_Symbols
 +Msc +Fem +Neu
 +Nom +Acc +Gen +Dat +Ins +Loc +Voc
 
+! Morphophonemes
+e2
 
 
 ! Key lexicon
