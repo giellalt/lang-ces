@@ -1,0 +1,33 @@
+
+!Masculine adjectives
+!====================
+
+!regular forms
+
+LEXICON RYCHLY 
++A: GRAD ;
+
+LEXICON GRAD 
+@D.Sup.ON@ NOSUP ;
+@R.Sup.ON@ SUP ;
+
+LEXICON NOSUP
++Pos:    CASENUM ;
++Cmp:est CASENUM ;
+
+LEXICON SUP
+Sup:est CASENUM ;
+
+
+
+LEXICON CASENUM
+a-m ;
+a-f ;
+!a-n ;
+
+LEXICON a-m
++Msc+Sg+Nom:y # ;
+
+LEXICON a-f
++Fem+Sg+Nom:a # ;
+
