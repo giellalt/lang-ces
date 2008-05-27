@@ -220,6 +220,14 @@ LEXICON KOLEGA_PL
 +N+Msc: LOCPL_IICH ;
 +N+Msc: ISTPL_Y ;
 
+LEXICON LIDE_PL
++N+Msc: NOMPL_EE ;
++N+Msc: GENPL_II ;
++N+Msc: DATPL_EM ;
++N+Msc: ACCPL_I ;
++N+Msc: VOCPL_EE ;
++N+Msc: LOCPL_ECH ;
++N+Msc: ISTPL_MI ;
 
 ! Feminine lexica
 ! ===============
@@ -582,6 +590,9 @@ LEXICON IST_II
 LEXICON NOMPL_OVE
 +Pl+Nom:%>ové # ;
 
+LEXICON NOMPL_EE
++Pl+Nom:%>é # ;
+
 LEXICON NOMPL_I
 +Pl+Nom:%>i # ;
 
@@ -668,6 +679,9 @@ LEXICON VOCPL_II
 
 LEXICON VOCPL_OVE
 +Pl+Voc:%>ové # ;
+
+LEXICON VOCPL_EE
++Pl+Voc:%>é # ;
 
 LEXICON VOCPL_I
 +Pl+Voc:%>i # ;

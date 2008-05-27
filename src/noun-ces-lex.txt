@@ -8,63 +8,65 @@ pán PAN ;
 muž MUZ_SG ;
 hrad HRAD_SG ;
 stroj STROJ_SG ;
-předseda:předsed PREDSEDA ;
-soudce:soude2c SOUDCE ;
-kolega:koleg KOLEGA ;
+předseda PREDSEDA ;
+soudce SOUDCE ;
+kolega KOLEGA ;
 les LES ;
-zámek ZAMEK ;
+zámek:záme2k ZAMEK ;
 divák DIVAK ;
 chuligán PAN ;
 manžel PAN ;
 osel:ose2l PAN ;
+člověk:člověk PAN_SG ;
+člověk:lide2 LIDE_PL ;
 
 ! Feminines
 ! =========
 
-žena:žen ZENA ;
-růže:růž RUZE ;
-píseň PISEN ;
+žena ZENA ;
+růže RUZE ;
+píseň:píse2ň PISEN ;
 kost KOST ;
-škola:škol SKOLA ;
-ruka:ruk SKOLA ;
-ruka:ruk RUKA_PL ; ! only when refering to parts of body = dual
-noha:noh ZENA_SG ;
-noha:noh RUKA_PL ; ! only when refering to parts of body = dual
-nůžky:nůže2k ZENA_PL ; ! nuzkz only pl
-noviny:novin ZENA_PL ; !only pl
-šachy:šach ZENA_PL ; !only pl
-kalhoty:kalhot ZENA_PL ; !only pl
-plavky:plave2k ZENA_PL ; !only pl
-květina:květin ZENA ;
-stařena:stařen ZENA ;
-tráva:trav ZENA ;
-kráva:krav ZENA ;
-koza:koz SKOLA ; 
-hračka:hrače2k SKOLA ;
-podložka:podlože2k SKOLA ;
-peřina:peřin ZENA ; 
-Růžena:Růžen ZENA ;
+škola SKOLA ;
+ruka SKOLA ;
+ruka RUKA_PL ; ! only when refering to parts of body = dual
+noha ZENA_SG ;
+noha RUKA_PL ; ! only when refering to parts of body = dual
+nůžky:nůže2ky ZENA_PL ; ! nuzkz only pl
+noviny ZENA_PL ; !only pl
+šachy ZENA_PL ; !only pl
+kalhoty ZENA_PL ; !only pl
+plavky:plave2ky ZENA_PL ; !only pl
+květina ZENA ;
+stařena ZENA ;
+tráva ZENA ;
+kráva ZENA ;
+koza SKOLA ; 
+hračka:hrače2ka SKOLA ;
+podložka:podlože2ka SKOLA ;
+peřina ZENA ; 
+Růžena ZENA ;
 Blažena:Blažen ZENA ;
 židle RUZE ;
 kůže RUZE ;
-lžíce:lžic PALICE ;
-palice:palic PALICE ;
-hadice:hadic PALICE ;
-police:polic PALICE ;
+lžíce PALICE ;
+palice PALICE ;
+hadice PALICE ;
+police PALICE ;
 encyklopedie RUZE ;
 jehlice RUZE ;
 košile RUZE ;
 nohavice RUZE ;
-tíseň PISEN ;
-plíseň PISEN ;
+tíseň:tíse2ň PISEN ;
+plíseň:plíse2ň PISEN ;
 zář PISEN ;
-báseň PISEN ;
-třáseň PISEN ;
-dáseň PISEN ;
-bázeň PISEN ;
-lázeň PISEN ;
-kázeň PISEN ;
-výheň PISEN ;
+báseň:báse2ň PISEN ;
+třáseň:třáse2ň PISEN ;
+dáseň:dáse2ň PISEN ;
+bázeň:báze2ň PISEN ;
+lázeň:láze2ň PISEN ;
+kázeň:káze2ň PISEN ;
+výheň:výhe2ň PISEN ;
 vidle RUZE_PL ; !vidle only pl
 plíce RUZE_PL ; !plice only pl
 dveře RUZE_PL ; !dvere onlz pl
@@ -85,24 +87,25 @@ odvážnost KOST ;
 !======
 
 město MESTO ;
-kamna MESTO_PL ; !kamna only plural
-okno:okn MESTO ;
-žezlo:žezl MESTO ;
-jídlo:jídl MESTO ;
-pivo:piv MESTO ;
-prádlo MESTO_SG ; !only singular
-beranidlo MESTO ;
+kamna:kame2na MESTO_PL ; !kamna only plural
+okno MESTO ;
+žezlo:žeze2lo MESTO ;
+jídlo:jíde2lo MESTO ;
+pivo MESTO ;
+prádlo:práde2lo MESTO_SG ; !only singular
+beranidlo:beranide2lo MESTO ;
 mléko MESTO ;
-vajíčko MESTO ;
-kuřátko MESTO ;
-selátko MESTO ;
-panstvo MESTO_SG ; !panstvo only sg
+vajíčko:vajíče2ko MESTO ;
+kuřátko:kuřáte2ko MESTO ;
+selátko:seláte2ko MESTO ;
+panstvo:panste2vo MESTO_SG ; !panstvo only sg
 topivo MESTO_SG ; !topivo only sg
 učivo MESTO_SG ; ! ucivo only sg
 vrata MESTO_PL ; !vrata only pl
-játra MESTO_PL ; !jatra only pl
+játra:játe2ra MESTO_PL ; !jatra only pl
 moře MORE ;
- !DOPLNIT NEJAKY SLOVA
+hoře MORE ;
+slunce MORE ;
 kuře KURE ;
 sele KURE ;
 jehně KURE ;
