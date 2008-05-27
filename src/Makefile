@@ -8,15 +8,14 @@
 # It is dependent upon ces.save
 
 
+ifeq (victorio.uit.no, $(shell hostname))
+XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
+LEXC = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4bin/lexc -utf8
+endif
+
 XFST = xfst -utf8
 LEXC = lexc -utf8
 TWOLC = twolc -utf8
-
-ifeq (victorio.uit.no, $(shell hostname))
-XFST = /opt/sami/xerox/c-fsm/ix86-linux2.6-gcc3.4/bin/fst -utf8
-LEXC = /opt/sami/xerox/bin/lexc -utf8
-TWOLC = /opt/sami/xerox/bin/twolc -utf8
-endif
 
 
 ices.fst: ../bin/ices.fst
@@ -79,15 +78,16 @@ ces.save: ../bin/ces.save
 
 ces-lex.save: ../bin/ces-lex.save
 ../bin/ces-lex.save: ces-lex.txt noun-ces-morph.txt noun-ces-lex.txt \
-        adj-ces-lex.txt \
-	adv-ces-lex.txt verb-ces-lex.txt pron-ces-lex.txt punct-ces-lex.txt \
+        adj-ces-lex.txt adj-ces-morph.txt verb-ces-lex.txt verb-ces-morph.txt \
+	adv-ces-lex.txt pron-ces-lex.txt punct-ces-lex.txt \
 	pp-ces-lex.txt cc-ces-lex.txt cs-ces-lex.txt
 	@echo
 	@echo "*** Building ces-lex.save ***" ;
 	@echo
 	printf "compile-source ces-lex.txt noun-ces-morph.txt noun-ces-lex.txt \
-	adj-ces-lex.txt verb-ces-lex.txt verb-ces-morph.txt pron-ces-lex.txt \
-	adv-ces-lex.txt pp-ces-lex.txt punct-ces-lex.txt cc-ces-lex.txt \
+	verb-ces-lex.txt verb-ces-morph.txt adj-ces-lex.txt adj-ces-morph.txt ´\
+	pron-ces-lex.txt adv-ces-lex.txt pp-ces-lex.txt \
+	punct-ces-lex.txt cc-ces-lex.txt \
 	cs-ces-lex.txt \n\
 	save-source ../bin/ces-lex.save \n\
 	quit \n" > ../../tmp/ces-lex-save-script
