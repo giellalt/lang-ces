@@ -21,7 +21,7 @@ LEXC = lexc -utf8
 
 # Where all the perl scripts are:
 #BINDIR = ../../script/testing
-BINDIR = ~/gt/script/testing
+BINDIR = ../../../script/testing
 
 # Directory where all the compiled fst's are:
 FSTDIR = ../bin
