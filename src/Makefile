@@ -121,5 +121,3 @@ xfst-ces.bin: ../bin/xfst-ces.bin
 
 clean:
 	@rm -f ../bin/*.bin ../bin/*.fst ../bin/*.save
-
-
