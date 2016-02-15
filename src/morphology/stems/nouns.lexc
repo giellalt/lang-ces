@@ -1,0 +1,136 @@
+
+LEXICON Noun 
+
+! Masculines
+! ==========
+
+pán PAN ;
+muž MUZ_SG ;
+hrad HRAD_SG ;
+stroj STROJ_SG ;
+předseda PREDSEDA ;
+soudce SOUDCE ;
+kolega KOLEGA ;
+les LES ;
+zámek:záme2k ZAMEK ;
+divák DIVAK ;
+chuligán PAN ;
+manžel PAN ;
+osel:ose2l PAN ;
+člověk:člověk PAN_SG ;
+člověk:lide2 LIDE_PL ;
+kovář MUZ ;
+truhlář MUZ ;
+nápad HRAD ;
+úraz HRAD ;
+hoboj STROJ ;
+starosta PREDSEDA ;
+basista PREDSEDA ;
+vládce SOUDCE ;
+nástupce SOUDCE ;
+
+! Feminines
+! =========
+
+žena ZENA ;
+růže RUZE ;
+píseň:píse2ň PISEN ;
+kost KOST ;
+škola SKOLA ;
+ruka SKOLA ;
+ruka RUKA_PL ; ! only when refering to parts of body = dual
+noha ZENA_SG ;
+noha RUKA_PL ; ! only when refering to parts of body = dual
+nůžky:nůže2ky ZENA_PL ; ! nuzkz only pl
+noviny ZENA_PL ; !only pl
+šachy ZENA_PL ; !only pl
+kalhoty ZENA_PL ; !only pl
+plavky:plave2ky ZENA_PL ; !only pl
+květina ZENA ;
+stařena ZENA ;
+tráva ZENA ;
+kráva ZENA ;
+koza SKOLA ; 
+hračka:hrače2ka SKOLA ;
+podložka:podlože2ka SKOLA ;
+peřina ZENA ; 
+Růžena ZENA ;
+Blažena:Blažen ZENA ;
+židle RUZE ;
+kůže RUZE ;
+lžíce PALICE ;
+palice PALICE ;
+hadice PALICE ;
+police PALICE ;
+encyklopedie RUZE ;
+jehlice RUZE ;
+košile RUZE ;
+nohavice RUZE ;
+tíseň:tíse2ň PISEN ;
+plíseň:plíse2ň PISEN ;
+zář PISEN ;
+báseň:báse2ň PISEN ;
+třáseň:třáse2ň PISEN ;
+dáseň:dáse2ň PISEN ;
+bázeň:báze2ň PISEN ;
+lázeň:láze2ň PISEN ;
+kázeň:káze2ň PISEN ;
+výheň:výhe2ň PISEN ;
+vidle RUZE_PL ; !vidle only pl
+plíce RUZE_PL ; !plice only pl
+dveře RUZE_PL ; !dvere onlz pl
+mládež PISEN_SG ;!mladez only sg
+závist KOST ;
+hravost KOST ;
+nenávist KOST ;
+známost KOST ;
+vzdálenost KOST ;
+radost KOST ;
+žalost KOST ;
+bláznivost KOST ;
+zbrklost KOST ;
+nerozvážnost KOST ;
+odvážnost KOST ;
+
+!Neutra
+!======
+
+město MESTO ;
+kamna:kame2na MESTO_PL ; !kamna only plural
+okno MESTO ;
+žezlo:žeze2lo MESTO ;
+jídlo:jíde2lo MESTO ;
+pivo MESTO ;
+prádlo:práde2lo MESTO_SG ; !only singular
+beranidlo:beranide2lo MESTO ;
+mléko MESTO ;
+vajíčko:vajíče2ko MESTO ;
+kuřátko:kuřáte2ko MESTO ;
+selátko:seláte2ko MESTO ;
+panstvo:panste2vo MESTO_SG ; !panstvo only sg
+topivo MESTO_SG ; !topivo only sg
+učivo MESTO_SG ; ! ucivo only sg
+vrata MESTO_PL ; !vrata only pl
+játra:játe2ra MESTO_PL ; !jatra only pl
+moře MORE ;
+hoře MORE ;
+slunce MORE ;
+kuře KURE ;
+sele KURE ;
+jehně KURE ;
+štěně KURE ;
+kotě KURE ;
+tele KURE ;
+mládě KURE ;
+dítě KURE_SG ; !dite different pattern for sg and pl
+dítě KOST_PL ;
+čuně KURE ;
+pískle KURE ;
+stavení STAVENI ;
+stvoření STAVENI ;
+listí STAVENI_SG ; ! listi only sg
+kamení STAVENI_SG ; !kameni only sg
+révoví STAVENI_SG ; !revovi only sg
+olšoví STAVENI_SG ; !olsovi only sg
+     
+

@@ -1,0 +1,62 @@
+! Divvun & Giellatekno - open source grammars for Czech language
+! Copyright © 2015 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@uit.no or feedback@divvun.no
+
+! ========================================================================== !
+! !!            !!!Czech morphological analyser                      !
+! ========================================================================== !
+!! INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Czech LANGUAGE.
+
+
+Multichar_Symbols
+
+! POS
++N +V +A
++Adv +CC +CS +Interj +Pron +Num +Pr
+
+! Verbal MSP
++Prs +Fut +Prt +Prf 
++Ind +Imp +Cond +Opt
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++Inf
+
+
+! Nominal MSP
++Sg +Pl
++Msc +Fem +Neu
++Nom +Acc +Gen +Dat +Ins +Loc +Voc
+
+! Morphophonemes
+e2
+
+
+! Key lexicon
+
+LEXICON Root
+
+Noun ;
+Verb ;
+Adjective ; 
+Adverb ;
+Conjunction ; 
+Subjunction ; ! Still not added.
+!Interjection ;
+!Numeral ;
+Pronoun ;
+Preposition ;
+Punctuation ;
+
+
+
+
+

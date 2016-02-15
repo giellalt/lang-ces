@@ -1,0 +1,33 @@
+LEXICON Adjective
+ SUPPREF ; !superlative
+ ADJLEX ; 
+
+! Prefixes
+
+LEXICON SUPPREF !superlative
+@P.Sup.ON@:nej@P.Sup.ON@ ADJLEX ;
+@P.Sup.ON@:nej@P.Sup.ON@ NEGPREF ;
+
+LEXICON NEGPREF
+Neg+:ne NEGADJ ;
+!        oNEGADJ ;
+
+LEXICON NEGADJ
+!mely:mel NEMELY ;
+  ADJLEX ; !positive roots
+! NEGADJLEX ; !roots with negation
+
+! The adjectives themselves
+
+LEXICON ADJLEX
+rychly:rychl RYCHLY ;
+! and 4000 more or so...
+
+
+
+!LEXICON NEGADJLEX
+!# ;
+
+
+!LEXICON NEMELY
+!# ;
