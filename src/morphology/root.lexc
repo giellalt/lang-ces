@@ -36,6 +36,8 @@ Multichar_Symbols
 +Msc +Fem +Neu
 +Nom +Acc +Gen +Dat +Ins +Loc +Voc
 
++Symbol !!≈ * @CODE@ = independent symbols in the text stream, like £, €, ©
+
 ! Morphophonemes
 e2
 
