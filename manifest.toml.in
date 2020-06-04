@@ -1,0 +1,9 @@
+name = "Czech"
+version = "@SPELLERVERSION@"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.cs"
+
+[windows]
+system_product_code = "CC3E6206-CD18-4164-B9F0-B71174D6B2E9"
+msoffice_product_code = "0DFC2F6D-F4D9-4136-A836-B225BC94872A"
