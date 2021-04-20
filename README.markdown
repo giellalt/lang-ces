@@ -10,7 +10,8 @@ authors named in the AUTHORS file are available to grant other licencing
 choices.
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-ces)](https://github.com/giellalt/lang-ces/issues)
- [![Build Status](https://github.com/giellalt/lang-ces/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-ces/actions)
+[![Build Status](https://github.com/giellalt/lang-ces/workflows/Build%20Speller%20Archives%20and%20Bundles/badge.svg)](https://github.com/giellalt/lang-ces/actions)
+[![License](https://img.shields.io/github/license/giellalt/template-lang-ces)](https://raw.githubusercontent.com/giellalt/lang-ces/develop/LICENSE)
 
 Install proofing tools and [keyboards](https://github.com/giellalt/keyboard-ces)
 for the Czech language by using the [Divvun Installer](http://divvun.no)
