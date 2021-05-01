@@ -1,4 +1,11 @@
 
+# Symbol affixes
+
+
+
+
+
+
 # Czech morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Czech LANGUAGE.
 
@@ -18,6 +25,64 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Czech LANGUAGE.
 
 
 
+
+Numerals
+Numerals in the Czech language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
 
 
