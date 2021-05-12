@@ -5,11 +5,11 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-ces)](https://github.com/giellalt/lang-ces/issues)
 [![Build status](https://github.com/giellalt/lang-ces/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-ces/actions)
 
-This page documents the work on the **Czech language model**. 
+This page documents the work on the [Czech language model](https://github.com/giellalt/lang-ces). 
 
 # Project documentation
 
-* Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.
+* (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)
 
 # In-source documentation
 
