@@ -605,15 +605,15 @@ These were the set types.
 
 
 
-Numerals
-Numerals in the Czech language are numbers.
-
-
 
 # Symbol affixes
 
 
 
+
+
+Numerals
+Numerals in the Czech language are numbers.
 
 
 
@@ -635,22 +635,6 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Czech LANGUAGE.
 
 
 
-
-
-
-
-
-We describe here how abbreviations are in Czech are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
 
 
 
@@ -706,6 +690,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Czech are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
