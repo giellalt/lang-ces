@@ -3,13 +3,13 @@ The Czech morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-ces)](https://github.com/giellalt/lang-ces/issues)
 [![Build Status](https://github.com/giellalt/lang-ces/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-ces/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-ces)](https://raw.githubusercontent.com/giellalt/lang-ces/develop/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-ces)](https://raw.githubusercontent.com/giellalt/lang-ces/main/LICENSE)
 
 This repository contains finite state source files for the Czech language,
 for building morphological analysers, proofing tools
 and dictionaries. The data and implementation are licenced under __LICENCE__
 licence, also detailed in the
-[LICENCE](https://github.com/giellalt/lang-ces/blob/develop/LICENCE). The
+[LICENSE](https://github.com/giellalt/lang-ces/blob/main/LICENSE). The
 authors named in the AUTHORS file are available to grant other licencing
 choices.
 
@@ -77,7 +77,7 @@ svn checkout https://github.com/giellalt/lang-ces.git/trunk lang-ces
 Building and installation
 -------------------------
 
-[INSTALL](https://github.com/giellalt/lang-ces/blob/develop/INSTALL)
+[INSTALL](https://github.com/giellalt/lang-ces/blob/main/INSTALL)
 describes the GNU build system in detail, but for most users it is the usual:
 
 ```sh
