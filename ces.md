@@ -606,7 +606,12 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-ces/blob/main/../src/cg3/functions.cg3)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-ces/blob/main/../src/cg3/functions.cg3)</small>Numerals
+Numerals in the Czech language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/fst/stems/numerals.lexc)</small>
 # Symbol affixes
 
 
@@ -636,12 +641,24 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Czech LANGUAGE.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/fst/root.lexc)</small>Numerals
-Numerals in the Czech language are numbers.
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/fst/root.lexc)</small>
+
+
+We describe here how abbreviations are in Czech are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 
 
 
@@ -697,23 +714,6 @@ Numerals in the Czech language are numbers.
 
 * * *
 <small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-numbers-digit2text.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/transcriptions/transcriptor-numbers-digit2text.lexc)</small>
-
-
-We describe here how abbreviations are in Czech are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/transcriptions/transcriptor-abbrevs2text.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/transcriptions/transcriptor-abbrevs2text.lexc)</small>
 [ L A N G U A G E ]  G R A M M A R   C H E C K E R
 
 
