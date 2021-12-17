@@ -606,15 +606,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-ces/blob/main/../src/cg3/functions.cg3)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/fst/affixes/symbols.lexc)</small>Numerals
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-ces/blob/main/../src/cg3/functions.cg3)</small>Numerals
 Numerals in the Czech language are numbers.
 
 
@@ -642,6 +634,14 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Czech LANGUAGE.
 
 * * *
 <small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/fst/root.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/fst/affixes/symbols.lexc)</small>
 
 
 We describe here how abbreviations are in Czech are read out, e.g.
