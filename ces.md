@@ -606,12 +606,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-ces/blob/main/../src/cg3/functions.cg3)</small>Numerals
-Numerals in the Czech language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/fst/stems/numerals.lexc)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-ces/blob/main/../src/cg3/functions.cg3)</small>
 # Czech morphological analyser                      !
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Czech LANGUAGE.
 
@@ -621,7 +616,7 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Czech LANGUAGE.
 
 
 
- * +Symbol = independent symbols in the text stream, like £, €, ©
+* +Symbol© = independent symbols in the text stream, like £, €, ©
 
 
 
@@ -641,7 +636,12 @@ INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Czech LANGUAGE.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/fst/affixes/symbols.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/fst/affixes/symbols.lexc)</small>Numerals
+Numerals in the Czech language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-ces/blob/main/../src/fst/stems/numerals.lexc)</small>
 
 
 We describe here how abbreviations are in Czech are read out, e.g.
