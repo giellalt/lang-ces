@@ -2,7 +2,7 @@ The Czech morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-ces)](https://github.com/giellalt/lang-ces/issues)
-[![Build Status](https://github.com/giellalt/lang-ces/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-ces/actions)
+[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-ces/main/badge.svg)](https://github.com/giellalt/lang-ces/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-ces)](https://github.com/giellalt/lang-ces/blob/main/LICENSE)
 
 This repository contains finite state source files for the Czech language,
