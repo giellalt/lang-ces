@@ -2,7 +2,7 @@ The Czech morphology and tools
 ==========================================
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-ces)](https://github.com/giellalt/lang-ces/issues)
-[![Build Status](https://divvun-tc.thetc.se/api/github/v1/repository/giellalt/lang-ces/main/badge.svg)](https://github.com/giellalt/lang-ces/actions)
+[![Build Status](https://divvun-tc.giellalt.org/api/github/v1/repository/giellalt/lang-ces/main/badge.svg)](https://github.com/giellalt/lang-ces/actions)
 [![License](https://img.shields.io/github/license/giellalt/lang-ces)](https://github.com/giellalt/lang-ces/blob/main/LICENSE)
 [![Desktop speller download](https://img.shields.io/badge/download%40latest-desktop--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-ces?platform=desktop&channel=nightly)
 [![Mobile speller download](https://img.shields.io/badge/download%40latest-mobile--bhfst-brightgreen)](https://pahkat.uit.no/main/download/speller-ces?platform=mbile&channel=nightly)
