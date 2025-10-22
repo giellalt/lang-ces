@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-ces)](https://github.com/giellalt/lang-ces/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-ces)](https://github.com/giellalt/lang-ces/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-ces?label=CI)](https://builds.giellalt.org/pipelines/lang-ces/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/czec1258)
 
 This page documents the work on the [Czech language model](https://github.com/giellalt/lang-ces). 
 
